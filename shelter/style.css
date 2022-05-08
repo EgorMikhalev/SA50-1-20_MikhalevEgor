@@ -4,8 +4,13 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-    background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
-    
+
+    background: url(unnamed.jpeg) center center no-repeat;
+
+    background-color: rgb(55, 48, 48);
+    background-position: top;
+    background-size: 60%;
+
     }
     
     .logo{
@@ -59,21 +64,163 @@
     .list{
     height: 24px;
     width: auto;
-    
-    
+        
+        
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    
+        
     color: #FAFAFA;
+
+    text-decoration: none;
     }
     .ats{
     position: absolute;
-    width: 443px;
+    width: 500px;
     height: 27px;
-    left: 757px;
+    left: 657px;
     top: 40px;
 
+    }
+    .contacts{
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-decoration: none;
+        color: #5e3d3d;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+    }
+    .contacts:hover{
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-decoration: none;
+        color: #c4a289;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+    }
+    .Help_the_shelter{
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+
+        color: #5e3d3d;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+        text-decoration: none;
+    }
+    .Help_the_shelter:hover{
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+
+        color: #c4a289;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+        text-decoration: none;
+    }
+    .Our_pets{
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #5e3d3d;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        text-decoration: none;
+    }
+    .Our_pets:hover{
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #c4a289;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        text-decoration: none;
+    }
+    .About_the_shelter{
+        color: #5e3d3d;
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        flex: none;
+        order: 0;
+        flex-grow: 0;  
+        text-decoration: none;
+    }
+    .About_the_shelter:hover{
+        color: #c4a289;
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        flex: none;
+        order: 0;
+        flex-grow: 0;  
+        text-decoration: none;
     }
